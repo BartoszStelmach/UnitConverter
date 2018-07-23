@@ -1,0 +1,117 @@
+body {
+    background-color: #f2f2f2;
+}
+
+#bar {
+    width: 800px;
+    height: 71px;
+    background: #cccccc;
+    margin-top: 41px;
+    margin-left: 400px;
+}
+
+#header {
+    font-size: 30px;
+    line-height: 71px;
+    vertical-align: middle;
+    text-align: center;
+    text-transform: uppercase;
+    color: #4CAF50;
+}
+
+#vertical-menu {
+    width: 200px;
+    height: 450px;
+    background-color: #DDD;
+}
+
+#vertical-menu a {
+    background-color: #cccccc;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+
+#vertical-menu a:hover {
+    background-color: #b3b3b3;
+}
+
+#vertical-menu a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#container {
+    width: 100%;
+    height: 100%;
+    margin-left: 400px;
+    position: relative;
+}
+
+#main_section {
+    width: 600px;
+    height: 450px;
+    position: absolute;
+    left: 200px;
+    top: 0;
+    background: #DDD;
+}
+
+#unit_text {
+    position: absolute;
+    left: 20px;
+    top: 30px;
+    font-weight: bold;
+}
+
+#from {
+    position: absolute;
+    left: 20px;
+    top: 80px;
+}
+
+#number {
+    position: absolute;
+    left: 20px;
+    top: 110px;
+    height: 25px;
+    width: 180px;
+}
+
+#select {
+    position: absolute;
+    left: 200px;
+    top: 110px;
+    height: 25px;
+    width: 140px;
+}
+
+#swap_button {
+    position: absolute;
+    left: 245px;
+    top: 165px;
+}
+
+#to {
+    position: absolute;
+    left: 20px;
+    top: 185px;
+}
+
+#result {
+    position: absolute;
+    left: 20px;
+    top: 200px;
+    height: 20px;
+    width: 175px;
+    border: 2.5px solid #4CAF50;
+}
+
+#select2 {
+    position: absolute;
+    left: 200px;
+    top: 216px;
+    height: 25px;
+    width: 140px;
+}
